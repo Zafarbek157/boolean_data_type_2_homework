@@ -7,4 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a%2!=0, 0-a
+print(main(7))

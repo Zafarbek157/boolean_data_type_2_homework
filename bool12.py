@@ -7,4 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a%3==0 or a%5==0
+print(main(15)) #true
+print(main(16)) #false
