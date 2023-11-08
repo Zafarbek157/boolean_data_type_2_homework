@@ -7,5 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return a%4==0 or a%400==0 or a%100!=0
-print(main())
+    return (a%4==0 and a%100!=0) or (a%100==0 and a%400==0)
+print(main(300)) 

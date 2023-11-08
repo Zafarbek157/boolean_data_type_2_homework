@@ -11,16 +11,13 @@ def main(a):
     s+=a%10
     s//=10
 
-    s=0
     s+=a%10
     s//=10
 
-    s=0
     s+=a%10
     s//=10
 
-    s=0
     s+=a%10
     s//=10
     return s%2==1
-print(main(2343))
+print(main(4))
