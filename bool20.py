@@ -7,9 +7,20 @@ def main(a):
         bool
     """
     # Write your code here
-    return a<1000, a//10000
-c=a//100 # 3 xonali son uchun
-d=(a%100)//10
-e=((a%100)//10)%10
+    s=0
+    s+=a%10
+    s//=10
 
-print(main(343))
+    s=0
+    s+=a%10
+    s//=10
+
+    s=0
+    s+=a%10
+    s//=10
+
+    s=0
+    s+=a%10
+    s//=10
+    return s%2==1
+print(main(2343))

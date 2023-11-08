@@ -7,5 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 5<=a<=15
+    return 5<=a and a<15
 print(main(14))
